@@ -61,7 +61,7 @@ conn.sendMessage(m.chat, {text: `${lenguajeGB['smsAvisoFG']()} 𝙀𝙍𝙍𝙊�
 }}}}}};
 handler.help = ['instagram <link ig>']
 handler.tags = ['downloader']
-handler.command =/^(instagram|ig(dl)?)$/i
+handler.command =/^(instagram)(dl)?)$/i
 
 
 export default handler;
