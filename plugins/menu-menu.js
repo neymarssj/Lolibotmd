@@ -103,17 +103,11 @@ ${readMore}
 
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 
- \`『 INFO DEL BOT 』\`
- 
-> 💫 _${usedPrefix}infobot_
-> 💫 _${usedPrefix}grupos_
-> 💫 _${usedPrefix}instalarbot_
+ \`『 INFO DEL BOT 』\` 
 > 💫 _${usedPrefix}menu2_
 > 💫 _${usedPrefix}estado_
 > 💫 _${usedPrefix}sc_
-> 💫 _${usedPrefix}donar_
 > 💫 _${usedPrefix}reglas_
-> 💫 _${usedPrefix}cuentas_
 > 💫 _${usedPrefix}ping_
 > 💫 _Bot_
 > 💫 _¿Qué es un Bot?_
@@ -123,16 +117,6 @@ ${readMore}
 
  『 \`UNER UN BOT A TU GRUPO\` 』
 > 🤖 _${usedPrefix}join *link del grupo*_
-
-┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-
-  『 \`SERBOT & JADIBOT\` 』
-> 🟢 _${usedPrefix}serbot | jadibot_
-> 🟢 _${usedPrefix}serbot --code
-> 🟢 _${usedPrefix}jadibot --code
-> 🟢 _${usedPrefix}stop | detener_
-> 🟢 _${usedPrefix}eliminarsesion | deletebot_
-> 🟢 _${usedPrefix}bots_
 
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 
