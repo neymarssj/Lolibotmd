@@ -17,5 +17,5 @@ console.log(e)}}
 handler.help = ['toimg (reply)'];
 handler.tags = ['sticker'];
 handler.command = ['toimg', 'jpg', 'img'];
-handler.register = true
+
 export default handler;
