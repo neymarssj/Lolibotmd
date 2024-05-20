@@ -16,5 +16,5 @@ body: '', previewType: 0, thumbnail: imagen2, sourceUrl: md}}})
 //conn.sendButton(m.chat, caption, `💟 𝑴𝒊 𝒑𝒂𝒋𝒆𝒓𝒂 ⇢ ${pareja ? `*${user} 💞 ${conn.getName(pareja)}*` : `❌ *No tiene Pareja*`}\n${wm}`, null, [ ['𝑴𝒆𝒏𝒖 ☘️', '/menu']], m, { mentions: await conn.parseMention(caption) })
 }
 handler.command = /^(listaparejas|listarelacion|listship|listpareja)$/i
-handler.register = true
+
 export default handler
