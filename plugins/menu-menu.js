@@ -77,46 +77,7 @@ let menu = `『 ${wm} 』
 
 *Hola ${taguser}*
 
-\`□ Creador:\`  Mario
-\`□ Numero del creador:\` 
-> ${asistencia}
-\`□ Numero del bot ofc:\`
-> ${bot}
-\`□ Tiempos activos :\` ${uptime}
-\`□ Usuarios:\` ${Object.keys(global.db.data.users).length}
-\`□ Registrado:\` ${rtotalreg} de ${totalreg} ${(conn.user.jid == global.conn.user.jid ? '' : `\n□ *Soy un sub bot del:* wa.me/${global.conn.user.jid.split`@`[0]}`) || ''}
-
-*\`□ Activar tu bot 24/7 activo en Infinity-Host\`*
-https://youtu.be/o6ZSpMOsvHs?si=Kp2swTeJOUYSg8wn
-
-\`◉ INFO DEL USUARIO\`
-> □ *🙌 Registrado:* ${user.registered === true ? '✅' : '❌ _#verificar_'}
-> □ *🎟️ Premium:* ${user.premiumTime > 0 ? '✅' : '❌ _#pase premium_'}
-> □ *🔰 Mi estado:* ${typeof user.miestado !== 'string' ? '_#miestado || Estado no asignado_' : '_Me siento ' + user.miestado + '_'}
-> □ *🎖️ Nivel:* ${level}
-> □ *💎 Diamantes:* ${limit}
-> □ *👾 LoliCoins:* ${money}
-> □ *🪙 Tokens:* ${joincount}
-> □ *🧰 Experiencia:* ${exp}
-> □ *⚓ Rango:* ${role}
-${readMore}
-
-┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-
- \`『 INFO DEL BOT 』\` 
-> 💫 _${usedPrefix}menu2_
-> 💫 _${usedPrefix}estado_
-> 💫 _${usedPrefix}sc_
-> 💫 _${usedPrefix}reglas_
-> 💫 _${usedPrefix}ping_
-> 💫 _Bot_
-> 💫 _¿Qué es un Bot?_
-> 💫 _Términos y condiciones_
-
-┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-
- 『 \`UNER UN BOT A TU GRUPO\` 』
-> 🤖 _${usedPrefix}join *link del grupo*_
+\`□ Creador:\`  Alxnn.zp
 
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 
@@ -178,12 +139,6 @@ ${readMore}
 
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 
-  『 \`NUMERO DEL CREADOR\` 』
-  
-> 🤖 _${usedPrefix}owner_
-
-┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-
   『 \`ACTIVA O DESACTIVAR\` 』
   
 > ☑️ _${usedPrefix}enable_
@@ -193,14 +148,6 @@ ${readMore}
   『 \`REPORTA COMANDO CON ERRORES\` 』
   
 > ⚠️ _${usedPrefix}reporte *<texto>*_
-
-┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-
-  『 \`SER PREMIUM\` 』
-  
-> 🎟️ _${usedPrefix}listapremium_
-> 🎟️ _${usedPrefix}pase premium_
-> 🎟️ _${usedPrefix}pass premium_
 
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 
