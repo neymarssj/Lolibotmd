@@ -55,5 +55,5 @@ console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗
 console.log(e)}}
 handler.command = /^(aceptar|acepto|accept)$/i
 handler.group = true
-handler.register = true
+
 export default handler
