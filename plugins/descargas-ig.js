@@ -21,7 +21,7 @@ if (bufferInfo.detectedType.mime.startsWith('image/')) {
 await conn.sendMessage(m.chat, {image: {url: img[i].download_link}}, {quoted: m});
 } else if (bufferInfo.detectedType.mime.startsWith('video/')) {
 await conn.sendMessage(m.chat, {video: {url: img[i].download_link }}, {quoted: m});
-handler.limit = 2            
+        
 }}} catch {   
 try {
 const datTa = await instagram.download(args[0]);
@@ -37,7 +37,7 @@ const resultss = await instagramGetUrl(args[0]).url_list[0];
 const shortUrl2 = await (await fetch(`https://tinyurl.com/api-create.php?url=${args[0]}`)).text();
 const txt2 = `✨ *ENLACE:* ${shortUrl2}\n\n${wm}`.trim();
 await conn.sendFile(m.chat, resultss, 'error.mp4', txt2, m);
-handler.limit = 2        
+
 } catch {
 try {
 const resultssss = await instagramdl(args[0]);
@@ -53,17 +53,17 @@ const videoig = json.result;
 const shortUrl1 = await (await fetch(`https://tinyurl.com/api-create.php?url=${args[0]}`)).text();
 const txt1 = `✨ *ENLACE:* ${shortUrl1}\n\n${wm}`.trim();
 await conn.sendFile(m.chat, videoig, 'error.mp4', txt1, m);
-handler.limit = 2            
+           
 } catch {
 console.log('Error en el intento 4, sin resultados')  
 conn.sendMessage(m.chat, {text: `${lenguajeGB['smsAvisoFG']()} 𝙀𝙍𝙍𝙊𝙍 𝙋𝙊𝙍 𝙁𝘼𝙑𝙊𝙍 𝙑𝙐𝙀𝙇𝙑𝘼 𝘼 𝙄𝙉𝙏𝙀𝙉𝙏𝘼`, edit: key});
-handler.limit = 0
+
 }}}}}};
 handler.help = ['instagram <link ig>']
 handler.tags = ['downloader']
 handler.command =/^(instagram|ig(dl)?)$/i
-//handler.limit = 2
-handler.register = true
+
+
 export default handler;
 
 const getBuffer = async (url, options) => {
