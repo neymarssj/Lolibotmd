@@ -545,19 +545,19 @@ if (!/[01]/.test(command)) return await conn.reply(m.chat, `   \`『 OPCIONES PA
 throw false
 }
 await conn.reply(m.chat, `╭┄〔 *${wm}* 〕┄⊱
-┆🗂️ ᴏᴘᴄɪᴏɴ: ${type} 
+┆🗂️ Opcion: ${type} 
 ┆——————«•»——————
-┆🎚️ ᴇsᴛᴀᴅᴏ: ${isEnable ? 'ᴀᴄᴛɪᴠᴀᴅᴏ' : 'ᴅᴇsᴀᴄᴛɪᴠᴀᴅᴏ'}
+┆🎚️ Estado: ${isEnable ? 'Activado' : 'Desactivado'}
 ┆——————«•»——————
-┆📣 ᴘᴀʀᴀ: ${isAll ? 'ᴇsᴛᴇ ʙᴏᴛ' : isUser ? '' : 'ᴇsᴛᴇ ᴄʜᴀᴛ'} 
-╰━━━⊰ 𓃠 ${vs} ⊱━━━━დ`, fkontak, {
+┆📣 Para: ${isAll ? 'este' : isUser ? '' : 'chat'} 
+╰━━━⊰ ${vs} ⊱━━━━დ`, fkontak, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
 title: `${wm}`,
 body: '', previewType: 0, thumbnail: imagen4, sourceUrl: [nna, nn, md, yt].getRandom()}}})} 
 
 handler.help = ['en', 'dis'].map(v => v + 'able <option>')
 handler.tags = ['group', 'owner']
-handler.command = /^((en|dis)able|(tru|fals)e|(turn)?o(n|ff)|[01])$/i
+handler.command = /^((e|d)able|(tru|fals)e|(turn)?o(n|ff)|[01])$/i
 export default handler
 
 const more = String.fromCharCode(8206)
