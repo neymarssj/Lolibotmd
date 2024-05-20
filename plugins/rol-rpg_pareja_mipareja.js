@@ -19,5 +19,5 @@ console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗
 console.log(e)}}
 handler.command = /^(sinceridad|mipareja|miamor|minovio|minovia|mylove)$/i
 handler.group = true
-handler.register = true
+
 export default handler
