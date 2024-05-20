@@ -14,5 +14,5 @@ m.reply(`${eg} ᴜsᴛᴇᴅ ʏᴀ ɴᴏ ᴇsᴛᴀ ʀᴇɢɪsᴛʀᴀᴅᴏ ᴇ
 handler.help = ['', 'ister'].map(v => 'unreg' + v + ' <numero de serie>')
 handler.tags = ['xp']
 handler.command = /^unreg(ister)?$/i
-handler.register = true
+
 export default handler
