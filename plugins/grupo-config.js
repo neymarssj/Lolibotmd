@@ -17,12 +17,12 @@ ${mg}*╭━[ ${wm} ]━⬣*
 `.trim()
 await conn.groupSettingUpdate(m.chat, isClose)
   
-if (isClose === 'not_announcement'){
+
 m.reply(`*Grupo abierto*`)
 //conn.sendButton(m.chat, `${eg}Podes hablar!`, `Grupo abierto\n${wm}`, pp, ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ ☘️', `/menu`]], m)
 }
   
-if (isClose === 'announcement'){
+
 m.reply(`*Grupo cerrado*`)
 //conn.sendButton(m.chat, `${eg}Solo admins`, `Grupo cerrado\n${wm}`, pp, [['Solo admins', '.s'], ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ ☘️', `/menu`]], m)
 }}
