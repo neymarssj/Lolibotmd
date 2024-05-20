@@ -18,13 +18,12 @@ ${mg}*╭━[ ${wm} ]━⬣*
 await conn.groupSettingUpdate(m.chat, isClose)
   
 
-m.reply(`*Grupo abierto*`)
-//conn.sendButton(m.chat, `${eg}Podes hablar!`, `Grupo abierto\n${wm}`, pp, ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ ☘️', `/menu`]], m)
+
 }
   
 
-m.reply(`*Grupo cerrado*`)
-//conn.sendButton(m.chat, `${eg}Solo admins`, `Grupo cerrado\n${wm}`, pp, [['Solo admins', '.s'], ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ ☘️', `/menu`]], m)
+
+
 }}
 handler.help = ['group open / close', 'gp abrir / cerrar']
 handler.tags = ['group']
