@@ -15,5 +15,5 @@ console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗
 console.log(e)}}
 handler.alias = ['tomp3', 'toaudio'];
 handler.command = /^to(mp3|audio)$/i;
-handler.register = true 
+
 export default handler;
