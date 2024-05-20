@@ -51,5 +51,4 @@ return await conn.reply(m.chat,  `😿 𝙇𝘼𝙈𝙀𝙉𝙏𝘼𝘽𝙇𝙀�
 }}}
 handler.command = /^(rechazar|cancelar|decline)$/i
 handler.group = true
-handler.register = true
 export default handler
