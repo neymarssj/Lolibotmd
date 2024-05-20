@@ -40,5 +40,4 @@ handler.help = ['infogrup']
 handler.tags = ['group']
 handler.command = /^(configuración|settings|setting|confugurar|configuracion|vezgrupo|gruporesumen)$/i
 handler.group = true
-handler.register = true
 export default handler
