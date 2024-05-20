@@ -11,22 +11,22 @@ let isClose = { // Switch Case Like :v
 if (isClose === undefined)
 throw `
 ${mg}*╭━[ ${wm} ]━⬣*
-*┃➥ ${usedPrefix + command} abrir*
-*┃➥ ${usedPrefix + command} cerrar*
+*┃➥ ${usedPrefix + command} a*
+*┃➥ ${usedPrefix + command} c*
 *╰━━━━━[ 𓃠 ${vs} ]━━━━━⬣*
 `.trim()
 await conn.groupSettingUpdate(m.chat, isClose)
   
 if (isClose === 'not_announcement'){
-m.reply(`『 *Grupo abierto* 』\nPodes hablar!`)
+m.reply(`Grupo abierto \nPodes hablar!`)
 //conn.sendButton(m.chat, `${eg}Podes hablar!`, `Grupo abierto\n${wm}`, pp, ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ ☘️', `/menu`]], m)
 }
   
 if (isClose === 'announcement'){
-m.reply(`『 *Grupo cerrado* 』\nSolo admins!!`)
-//conn.sendButton(m.chat, `${eg}Solo admins!`, `Grupo cerrado\n${wm}`, pp, [['Solo admins', '.s'], ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ ☘️', `/menu`]], m)
+m.reply(`Grupo cerrado \nSolo admins`)
+//conn.sendButton(m.chat, `${eg}Solo admins`, `Grupo cerrado\n${wm}`, pp, [['Solo admins', '.s'], ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ ☘️', `/menu`]], m)
 }}
-handler.help = ['group open / close', 'gp abrir / cerrar']
+handler.help = ['group open / close', 'gp a / c']
 handler.tags = ['group']
 handler.command = /^(gp|gp)$/i
 handler.admin = true
