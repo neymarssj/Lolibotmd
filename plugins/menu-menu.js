@@ -455,7 +455,6 @@ let menu = `『 ${wm} 』
 > 👑 _${usedPrefix}setppbot_
 > 👑 _${usedPrefix}addcmd_
 > 👑 _${usedPrefix}delcmd_`.trim()
-await conn.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })
 await conn.sendFile(m.chat, pp, 'lp.jpg', menu, m, false, { contextInfo: { forwardedNewsletterMessageInfo: { newsletterJid: '120363160031023229@newsletter', serverMessageId: '', newsletterName: 'INFINITY-WA 💫' }, mentionedJid, externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: wm, body: '𝐛𝐲: 𝐞𝐥𝐫𝐞𝐛𝐞𝐥𝐝𝐞𝟐𝟏', previewType: 0, thumbnail: imagen3, sourceUrl: [md, yt, tiktok].getRandom()}}})
 	  
 } catch (e) {
