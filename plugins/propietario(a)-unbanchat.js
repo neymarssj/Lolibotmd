@@ -5,7 +5,7 @@ if (!(m.chat in global.db.data.chats)) return m.reply('*Este chat no está regis
 chat.isBanned = false
 conn.reply(m.chat,  '*BOT ONLINE 🚀*', m, {contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: ag, body: '𝐂𝐡𝐚𝐭 𝐝𝐞𝐬𝐛𝐚𝐧𝐞𝐚𝐝𝐨', previewType: 0, thumbnail: imagen4, sourceUrl: [md, yt, tiktok].getRandom()}}}) 
 }
-handler.command = /^u$/i
+handler.command = /^uc$/i
 //handler.botAdmin = true
 handler.rowner = true
 
