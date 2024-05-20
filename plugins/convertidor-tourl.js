@@ -22,7 +22,7 @@ console.log(e)}}
 handler.help = ['tourl']
 handler.tags = ['herramientas']
 handler.command = /^(tourl|upload)$/i
-handler.register = true
+
 export default handler
 
 async function shortUrl(url) {
