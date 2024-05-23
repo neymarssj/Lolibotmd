@@ -18,6 +18,6 @@ await conn.reply(m.chat, `${lenguajeGB['smsAvisoFG']()}*𝙀𝙇 𝙉𝙐𝙈�
 }
 break;
 }};
-handler.command = /^(add|dell)$/i;
+handler.command = /^(addowner|delowner)$/i;
 handler.rowner = true;
 export default handler;
