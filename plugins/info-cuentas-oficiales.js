@@ -44,6 +44,6 @@ let str = `\`『 ＣＵＥＮＴＡＳ ＯＦＩＣＩＡＬＥＳ 』\`
 
 ${wm}`
 await conn.sendFile(m.chat, media, 'loli.mp4', str, fkontak)}
-handler.command = /^cuentasoficiales|cuentas|cuentaofc$/i
+handler.command = /^tutumen|cuentaskakakakakakak|cuentaofcisisisiisiss$/i
 handler.register = true
 export default handler
