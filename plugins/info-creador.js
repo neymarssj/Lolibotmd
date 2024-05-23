@@ -80,5 +80,5 @@ conn.sendFile(m.chat, vn, 'creador.mp3', null, m, true, { type: 'audioMessage', 
 handler.help = ['owner', 'creator']
 handler.tags = ['info']
 handler.command = /^(contacto|owner|creator|propietario|dueño|dueña|propietaria|dueño|creadora|creador)$/i
-handler.register = true
+
 export default handler
