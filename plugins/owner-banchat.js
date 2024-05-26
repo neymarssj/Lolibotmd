@@ -4,7 +4,7 @@ conn.reply(m.chat,  '*BOT OFF*', m, {contextInfo: { externalAdReply :{ mediaUrl:
 }
 handler.help = ['banchat']
 handler.tags = ['owner']
-handler.command = /^b|ban2|banchat1$/i
+handler.command = /^banchat|ban2|banchat1$/i
 //handler.botAdmin = true
 handler.rowner = true
 export default handler
