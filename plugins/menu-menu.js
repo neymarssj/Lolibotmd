@@ -80,53 +80,12 @@ let menu = `『 ${wm} 』
 \`□ Creador:\`  Alxnn.zp
 
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+_*ESTE ES EL BOT OFICIAL*_
+No hagan mal uso del bot.
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 
-  『 \`JUEGOS\` 』
-  
-> 🕹 _${usedPrefix}mates_
-> 🕹️ _${usedPrefix}ppt_
-> 🕹 _${usedPrefix}prostituto *@tag*_
-> 🕹️ _${usedPrefix}prostituta *@tag*_
-> 🕹️ _${usedPrefix}gay2 *@tag*_
-> 🕹️ _${usedPrefix}lesbiana *@tag*_
-> 🕹 _${usedPrefix}pajero *@tag*_
-> 🕹 _${usedPrefix}pajera *@tag*_
-> 🕹️ _${usedPrefix}puto *@tag*_
-> 🕹️ _${usedPrefix}puta *@tag*_
-> 🕹️ _${usedPrefix}manco *@tag*_
-> 🕹️ _${usedPrefix}manca *@tag*_
-> 🕹️ _${usedPrefix}rata *@tag*_
-> 🕹️ _${usedPrefix}love *@tag*_
-> 🕹️ _${usedPrefix}doxear *@tag*_
-> 🕹 _${usedPrefix}pregunta_
-> 🕹️ _${usedPrefix}suitpvp *<@tag>*_
-> 🕹️ _${usedPrefix}slot_
-> 🕹️ _${usedPrefix}ttt_
-> 🕹️ _${usedPrefix}delttt_
-> 🕹️ _${usedPrefix}simi_
-> 🕹️ _${usedPrefix}top_
-> 🕹️ _${usedPrefix}topotakus_
-> 🕹️️ _${usedPrefix}top10gays_
-> 🕹️️ _${usedPrefix}toplind@s_
-> 🕹️️ _${usedPrefix}topput@s_
-> 🕹️️ _${usedPrefix}toppajer@s_
-> 🕹️️ _${usedPrefix}topotakus_
-> 🕹️️ _${usedPrefix}topintegrantes_
-> 🕹️️ _${usedPrefix}toplagrasa_
-> 🕹️️ _${usedPrefix}toppanafrescos_
-> 🕹️ _${usedPrefix}topshiposters_
-> 🕹️️ _${usedPrefix}toppajeros_
-> 🕹️️ _${usedPrefix}toplind@s_
-> 🕹️️ _${usedPrefix}topfamosos_
-> 🕹️️ _${usedPrefix}topsoltero
-> 🕹️️ _${usedPrefix}topparejas_
-> 🕹️ _${usedPrefix}formarpareja_
-> 🕹️ _${usedPrefix}verdad_
-> 🕹️ _${usedPrefix}reto_
-> 🕹️ _${usedPrefix}cancion_
-> 🕹️ _${usedPrefix}pista_
 
- ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
  
   『 \`💞 𝙋𝙖𝙧𝙚𝙟𝙖𝙨\` 』
   
@@ -230,19 +189,50 @@ let menu = `『 ${wm} 』
 
 ─────────────
 
-  『 \`EFECTOS Y LOGOS\` 』
+  『 \`JUEGOS\` 』
   
-> 🖍️ _${usedPrefix}phmaker_
-> 🖍️ _${usedPrefix}logos_
-> 🖍️ _${usedPrefix}logochristmas_
-> 🖍️ _${usedPrefix}logocorazon_
-> 🖍️ _${usedPrefix}ytcomment_
-> 🖍️ _${usedPrefix}hornycard_
-> 🖍️ _${usedPrefix}simpcard_
-> 🖍️ _${usedPrefix}lolice_
-> 🖍️ _${usedPrefix}itssostupid_
-> 🖍️ _${usedPrefix}pixelar_
-> 🖍️ _${usedPrefix}blur_
+> 🕹 _${usedPrefix}mates_
+> 🕹️ _${usedPrefix}ppt_
+> 🕹 _${usedPrefix}prostituto *@tag*_
+> 🕹️ _${usedPrefix}prostituta *@tag*_
+> 🕹️ _${usedPrefix}gay2 *@tag*_
+> 🕹️ _${usedPrefix}lesbiana *@tag*_
+> 🕹 _${usedPrefix}pajero *@tag*_
+> 🕹 _${usedPrefix}pajera *@tag*_
+> 🕹️ _${usedPrefix}puto *@tag*_
+> 🕹️ _${usedPrefix}puta *@tag*_
+> 🕹️ _${usedPrefix}manco *@tag*_
+> 🕹️ _${usedPrefix}manca *@tag*_
+> 🕹️ _${usedPrefix}rata *@tag*_
+> 🕹️ _${usedPrefix}love *@tag*_
+> 🕹️ _${usedPrefix}doxear *@tag*_
+> 🕹 _${usedPrefix}pregunta_
+> 🕹️ _${usedPrefix}suitpvp *<@tag>*_
+> 🕹️ _${usedPrefix}slot_
+> 🕹️ _${usedPrefix}ttt_
+> 🕹️ _${usedPrefix}delttt_
+> 🕹️ _${usedPrefix}simi_
+> 🕹️ _${usedPrefix}top_
+> 🕹️ _${usedPrefix}topotakus_
+> 🕹️️ _${usedPrefix}top10gays_
+> 🕹️️ _${usedPrefix}toplind@s_
+> 🕹️️ _${usedPrefix}topput@s_
+> 🕹️️ _${usedPrefix}toppajer@s_
+> 🕹️️ _${usedPrefix}topotakus_
+> 🕹️️ _${usedPrefix}topintegrantes_
+> 🕹️️ _${usedPrefix}toplagrasa_
+> 🕹️️ _${usedPrefix}toppanafrescos_
+> 🕹️ _${usedPrefix}topshiposters_
+> 🕹️️ _${usedPrefix}toppajeros_
+> 🕹️️ _${usedPrefix}toplind@s_
+> 🕹️️ _${usedPrefix}topfamosos_
+> 🕹️️ _${usedPrefix}topsoltero
+> 🕹️️ _${usedPrefix}topparejas_
+> 🕹️ _${usedPrefix}formarpareja_
+> 🕹️ _${usedPrefix}verdad_
+> 🕹️ _${usedPrefix}reto_
+> 🕹️ _${usedPrefix}cancion_
+> 🕹️ _${usedPrefix}pista_
 
 ─────────────
 
