@@ -81,8 +81,8 @@ let menu = `『 ${wm} 』
 
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 _*ESTE ES EL BOT OFICIAL*_
-\`No hagan mal uso del bot!\`
-\`para no ser baneado...\`
+_No hagan mal uso del bot!_
+_para no ser baneado..._
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 
  
